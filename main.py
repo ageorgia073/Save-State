@@ -13,4 +13,10 @@ user1.log_game(game1, 150, 9)
 user1.log_game(game2, 40, 7)
 
 print("About to call show_library")
+user1.save_library()
+
+user1.logged_games = []
+print( user1.logged_games)
+user1.load_library()
 user1.show_library()
+
